@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style type="text/css">
+@import url("travel_styles.css");
+</style>
+</head>
+
+<body>
+<div id="container">
+  <header></header>
+	<nav>
+	<ul>
+		<li><a href="travel.html">Blog</a></li>
+		<li><a href="travel_contact.html">Contact</a></li>
+	</ul>
+</nav>
+  <aside><h2>The Bahamas is a beutiful place, with amzing terrain on land and underwater, with amzing animals that live in this environment natrually.</h2>
+	<h2>&nbsp;</h2>
+	<h2>Here are some images to show you it's beuty.&nbsp; &nbsp; &nbsp;</h2>
+	<table width="100%" border="8" cellpadding="10">
+  <tbody>
+    <tr>
+      <th scope="row"><img src="fish.jpeg" width="100" height="107" alt=""/></th>
+    </tr>
+    <tr>
+      <th scope="row"><img src="dolphins.jpeg" width="100" height="107" alt=""/></th>
+    </tr>
+    <tr>
+      <th scope="row"><img src="pig.jpeg" width="100" height="107" alt=""/></th>
+    </tr>
+    <tr>
+      <th scope="row"><img src="flamingo.jpeg" width="100" height="107" alt=""/></th>
+    </tr>
+    <tr>
+      <th scope="row"><img src="manitee.jpeg" width="100" height="107" alt=""/></th>
+    </tr>
+    <tr>
+      <th scope="row"><img src="iguana.jpeg" width="100" height="107" alt=""/></th>
+    </tr>
+    <tr>
+      <th scope="row"><img src="shark.jpeg" width="100" height="107" alt=""/></th>
+    </tr>
+    <tr>
+      <th scope="row"><img src="starfish.jpeg" width="100" height="107" alt=""/></th>
+    </tr>
+    <tr>
+      <th scope="row"><img src="stingray.jpeg" width="100" height="107" alt=""/></th>
+    </tr>
+  </tbody>
+</table>
+</aside>
+  <main><h1>Contact Me</h1>
+	  <form>
+		  <p>Your Name: <input name="user_name" type="text" id="user_name" value="First and Last Name Please" size="50"></p>
+		  <p>Your Email: <input name="user_email" type="email" id="user_email" size="50"></p>
+	    <p>Leave a message:<br><textarea name="user_comment" cols="65" rows="10" id="user_comment"></textarea>
+	  	</p>
+    <p>How did you hear about this blog?<br>
+        <label>
+          <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_0">
+          Search Engine</label>
+        <br>
+        <label>
+          <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_1">
+          Social Media</label>
+        <br>
+        <label>
+          <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_2">
+          Friend</label>
+        <br>
+        <label>
+          <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_3">
+          Business Card</label>
+        <br>
+    	</p>
+		  <input type="submit" class="submit_btn" formaction="comment-box.php" formmethod="POST" value="Send Me A Message">
+	</form></main>
+  <footer></footer>
+</div>
+</body>
+</html>
